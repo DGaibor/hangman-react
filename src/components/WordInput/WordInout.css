@@ -1,0 +1,9 @@
+.input-token{
+    .p-inputotp-input.p-inputtext {
+        color: white;
+        font-size: larger;
+        font-weight: bold;
+        background: black;
+        opacity: 1;
+    }
+}
