@@ -19,6 +19,12 @@ export const GameResult = () => {
                     ? 'You guessed the word correctly!'
                     : 'Better luck next time!' }
             </p>
+            {
+                !player?.result && <p className="text-lg text-gray-400">
+                    The correct word was: <span className="font-semibold text-blue-500">{ player.word }</span>
+                </p>
+            }
+
 
             <Button
                 label="Play Again"
